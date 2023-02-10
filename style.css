@@ -1,0 +1,161 @@
+@import url("css/components/avatar.css");
+@import url("css/components/banner.css");
+@import url("css/components/button.css");
+
+h1{
+  font-size: 65px;font-family: 'Poppins', sans-serif;
+  color: #4361ee;
+  padding-top: 25px;
+
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein{
+
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+h2{
+  font-family: 'Pacifico', cursive;
+  font-size: 30;
+  color: #ffca3a;
+}
+
+h4{
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  padding-top: -20px;
+  padding-bottom: -10px;
+  color: #4361ee;
+}
+
+h5{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  padding-top: -50px;
+}
+
+body{
+  background-color: #ffe45e;
+  margin: ;
+}
+
+li{
+  list-style: none;
+}
+
+i{
+  font-size: 40px;
+  padding-right: 10px;
+  color: #4895ef;
+}
+
+a{
+  font-size: 20px;
+  padding-bottom: 9px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+input{
+      border-radius: 25px;
+    border-color: none;
+    height: 40;
+    width: 100;
+}
+
+#email{
+  width: 280px;
+  margin-top: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
+}
+#follow{
+  font-family: 'Raleway', sans-serif;
+  background-color: #fb5607;
+  color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
+}
+
+div{
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.card{
+  background: #4361ee;
+  padding: 10;
+  color: #fff3b0;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  border-radius: 50px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+
+  color: white;
+  transition: color 0.3s ease;
+}
+.card:hover {
+  color: #ffca3a;
+}
+
+
+#newsletter{
+  padding-top: 50px;
+  width: 600px;
+  margin: auto;
+}
+
+#profile{
+  margin-top: 80px;
+  margin-left: 170px;
+  margin-bottom: 100px;
+  text-align: right;
+}
+
+#phraseintro{
+  font-size: 17px;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.button-contact{
+  background-color: #fb5607;
+  padding: 19px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+
+color: white;
+  transition: color 0.3s ease;
+}
+.button-contact:hover {
+  color: #ffca3a;
+}
+
+.button-contact{
+   animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+
